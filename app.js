@@ -6,7 +6,7 @@ app.use((req, res, next) => {
     console.log(`path: ${req.path}`);
     next();
 });
-app.get('/TEST',(req,res,next) => {
+app.get('/',(req,res,next) => {
     res.send('Hello World 2');
     //res.write
     //res.end();
