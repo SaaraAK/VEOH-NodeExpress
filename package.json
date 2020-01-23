@@ -1,25 +1,26 @@
 {
-  "name": "veoh-nodeexpress",
+  "name": "veoh-nodeexpressserver",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "start-dev": "nodemon app.js"
+    "start-dev": "nodemon app-01-sessions.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SaaraAK/VEOH-NodeExpress.git"
+    "url": "git+https://github.com/yliharsilamikko/VEOH-NodeExpressServer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SaaraAK/VEOH-NodeExpress/issues"
+    "url": "https://github.com/yliharsilamikko/VEOH-NodeExpressServer/issues"
   },
-  "homepage": "https://github.com/SaaraAK/VEOH-NodeExpress#readme",
+  "homepage": "https://github.com/yliharsilamikko/VEOH-NodeExpressServer#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
